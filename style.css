@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    top: 0px; 
+}
+
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo>img{
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}
+#sidebar{
+    width: 250px;
+    height: 100vh;
+    top: 0;
+    background-color: #000000;
+    position: fixed;
+}
+
+.sidebar-list>a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+    padding: 7px;
+    margin-left: 15px;
+}
+.fav>h6{
+    color: white;
+    margin: 10px;
+    margin-left: 24px;
+}
+.fav>a{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 24px;
+}
+.install{
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.install>a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 700;    
+}
+.top{
+    margin-left: 250px ;
+    height: 60px ;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121; ;
+    border-bottom: 1px solid transparent;
+}
+.slide-btn{
+    margin: 10px;
+}
+.profile{
+    position: sticky;
+    width: 120px;
+    border-radius: 20px;
+    height: 42px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.profile>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+#featured{
+    margin-left: 310px ;
+    margin-top: 20px;
+}
+#featured>h3{
+    color: white;
+}
+.f1{
+    width: 270px;
+    background-color: #303030;
+    margin-top: 20px;
+    height: 70px;
+    margin-right:20px;
+    padding-right: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.f1>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
+}
+.featured-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+#playlist{
+    margin-left: 310px;
+}
+.playlist-heading{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.playlist-card{
+    width: 180px;
+    height: 250px;
+    background-color: #181818;
+    color: white;
+    border-radius: 5px;
+    margin-right: 23px;
+    margin-bottom: 20px ;
+}
+.playlist>p{
+    font-size: small;
+    color: #8c8c8c;
+}
+.card-list{
+   display: flex;
+   flex-wrap: wrap;
+}
+#musicPlayer{
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mp-play{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+}
+.mp-play>p{
+    margin: 3px;
+    text-align: left;
+}
+.music-controls{
+    width: 500px;
+    height: 80px;
+    background-color: black;
+    display: inline-block;
+    
+}
+.m-bar>img{
+    margin-top: -70px;
+}
+
+.m-bar>p{
+    color: white;
+    margin: 8px;
+    margin-top: -70px;
+}
+
+
+
+
+
+
+
