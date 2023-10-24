@@ -22,7 +22,7 @@
 <body class="page1">
     <header>
         <!-- Header content -->
-        <nav class="top">
+        <nav id="top">
         <div class="slide-btn">
             <a href="#"><img src="./source/backward.png" class="me-2"><img src="./source/forward.png"></a> 
            </div>
@@ -37,17 +37,17 @@
         <section id="sidebar">
             <!--sidebar-->
             <div class="logo d-flex justify-content-center m-2 ">
-                <img src="./source/Spotify logo.png" alt="spotify-logo">
+                <img src="./source/Spotify logo.png" alt="spotify-logo" style="width: 130px; height: 50px;">
             </div>
             <div class="sidebar-list sidebar-list1">
-                 <a href="#"><img src="./source/Home.png" style="margin-right: 16px;">Home</a>
-                 <a href="#"><img src="./source/Search.png" style="margin-right: 16px;">Search</a>
-                 <a href="#"><img src="./source/Your library.png" style="margin-right: 16px;">Your Library</a>
+                 <a href="#"><img src="./source/Home.png" style="margin-right: 16px; width: 20px;">Home</a>
+                 <a href="#"><img src="./source/Search.png" style="margin-right: 16px; width: 20px;">Search</a>
+                 <a href="#"><img src="./source/Your library.png" style="margin-right: 16px; width: 20px; ">Your Library</a>
             </div>
             <div class="sidebar-list sidebar-list2">
-                <a href="#"><img src="./source/plus.png" style="margin-right: 8px;">Create Playlist</a>
-                <a href="#"><img src="./source/purpleheart.png" style="margin-right: 8px;">Liked Songs</a>
-                <a href="#"><img src="./source/hotspot.png" style="margin-right: 8px;">Your Episodes</a>
+                <a href="#"><img src="./source/plus.png" style="margin-right: 8px; width: 25px;">Create Playlist</a>
+                <a href="#"><img src="./source/purpleheart.png" style="margin-right: 8px; width: 25px;">Liked Songs</a>
+                <a href="#"><img src="./source/hotspot.png" style="margin-right: 8px; width: 25px;">Your Episodes</a>
            </div>
            <div class="fav ">
                  <h6>FAV</h6>
@@ -89,10 +89,10 @@
                 <p>See all</p>
             </div>
            <div class="card-list">
-            <div class="playlist-card">
-                <img src="./source/Rectangle 21.png" width="150px" class="m-3">
-                <h6 class="ms-3">Weekly Motivation</h6>
-                <p class="ms-3">Ben Ins Scott</p>
+            <div class="playlist-card c1">
+                <a href="playlist.html" target="_blank"><img src="./source/album art.png" width="150px" class="m-3"></a>
+                <h6 class="ms-3">Pop Right Now</h6>
+                <p class="ms-3">Dua Lipa</p>
            </div>
             <div class="playlist-card">
                 <img src="./source/Rectangle 22.png" width="150px" class="m-3">
@@ -152,7 +152,7 @@
             </div>
 
              <div class="d-flex flex-column align-items-center music-controls">
-                  <div class="m-btns m-1">
+                  <div class="m-btns m-2">
                     <img src="./source/shuffle.png">
                     <img src="./source/backward.png">
                     <img src="./source/gridicons_play.png" style="width: 35px; height: 39px;">
@@ -166,21 +166,17 @@
                     </div>  
               </div>
 
-              <div class="m-tools d-flex flex-row m-2">
-                  <img src="./source/play.png">
-              </div>
-    
-           
+              <div class="m-tools d-flex align-items-center m-2">
+                  <img src="./source/microphone.png">
+                  <img src="./source/query-queue.png">
+                  <img src="./source/carbon_laptop.png">
+                  <img src="./source/speaker-white.png">
+                  <img src="./source/big-music-bar.png" style="width:90px; height:3px;" >
+                  <img src="./source/strech-speaker.png">
+              </div>     
         </section>
-        <section id="playlistGrid">
-            <!-- Playlist Grid content -->
-        </section>
-        <section id="playlistDetail">
-            <!-- Playlist Detail Page content -->
-        </section>
-        <section id="browse">
-            <!-- Browse Section content -->
-        </section>
+
+
     </main>
     
 
